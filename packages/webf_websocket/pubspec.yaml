@@ -11,7 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   web_socket_channel: ^2.2.0
-  webf: ^0.13.0
+  webf: 
+    git: 
+      url: git@github.com:wittech/webf.git
+      ref: main
+      path: webf
 
 dev_dependencies:
   flutter_test:
